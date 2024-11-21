@@ -1,6 +1,7 @@
 import CardPost from "@/components/CardPost/CardPost";
 import Header from "@/components/Header/Header";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
       <div className="">
         <Header/>
       </div>  
-      
+      <Link href='/post'>
       <div className="w-full flex-1 flex gap-8 items-center justify-center mt-10 mb-10">
         <div className="flex flex-1 h-[334px] relative rounded-2xl overflow-hidden">
          <Image
@@ -28,6 +29,7 @@ export default function Home() {
         </div>
         </div>
       </div>
+      </Link>
       <div className="grid grid-cols-3">
       <CardPost/>
       <CardPost/>
