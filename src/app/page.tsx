@@ -5,8 +5,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[1120px] flex flex-col mx-auto mt-12 pb-5">  
-      <Header/>
+    <div className="w-full max-w-[1120px] flex flex-col mx-auto mt-12 pb-5">
+      <div className="">
+        <Header/>
+      </div>  
+      
       <div className="w-full flex-1 flex gap-8 items-center justify-center mt-10 mb-10">
         <div className="flex flex-1 h-[334px] relative rounded-2xl overflow-hidden">
          <Image
