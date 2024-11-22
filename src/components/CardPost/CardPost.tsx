@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CardPost() {
   return (
-    <div className="w-full max-w-[352px] h-full flex flex-col items-center justify-between gap-4 mb-5 pb-10">
+    <div className="w-full max-w-[352px] h-full flex flex-col items-center justify-between gap-4 mb-5 pb-10 hover:brightness-75 transition-all ">
       <Link href='/post'>
         <div className="flex w-full h-[234px] relative rounded-2xl overflow-hidden">
           <Image

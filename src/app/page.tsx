@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-[1120px] flex flex-col mx-auto mt-12 pb-5">
+    <div className="w-full max-w-[1120px] flex flex-col mx-auto mt-12 pb-5 px-4">
       <div className="">
         <Header/>
       </div>  
-      <Link href='/post'>
+      <Link href='/post' className="hover:brightness-75 transition-all">
       <div className="w-full flex-1 flex gap-8 items-center justify-center mt-10 mb-10">
         <div className="flex flex-1 h-[334px] relative rounded-2xl overflow-hidden">
          <Image
